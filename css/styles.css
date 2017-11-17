@@ -47,6 +47,12 @@ a:hover {
   margin-left: 25px;
 }
 
+.arrow {
+  width: 30px;
+  margin-top: 550px;
+  margin-left: 30px;
+}
+
 .nap-gallery {
   float: left;
 }
@@ -65,4 +71,13 @@ a:hover {
 
 #column2 h1 {
   color: #da4227;
-1
+}
+
+select {
+  width: 320px;
+  height: 40px;
+  background-color: transparent;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1em;
+  padding-top: 20px;
+}
