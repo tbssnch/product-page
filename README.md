@@ -8,7 +8,15 @@ This is a website designed to display The Napsack from Poler Stuff
 
 ## Setup/Installation
 
-Go to tbssnch.github.io/product-page
+Open the terminal on your computer.
+
+Navigate to your desktop.
+
+Enter "git clone https://github.com/tbssnch/product-page.git"
+
+Enter atom . (or whichever text editor you prefer)
+
+View index.html in your browser
 
 
 ## Elements Used
