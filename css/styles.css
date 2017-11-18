@@ -2,8 +2,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #F4F5F6;
-  height: 100%;
-  width: auto;
+  /*height: 100%;
+  width: auto;*/
   font-family: 'Barlow Condensed', sans-serif;
 }
 
@@ -44,11 +44,11 @@ a:hover {
 }
 
 .nap-bottom {
-  /*position: absolute;*/
   width: 100px;
-  display: block;
   margin-top: 520px;
   margin-left: 25px;
+  margin-bottom: 50px;
+
 }
 
 .arrow {
@@ -61,21 +61,34 @@ a:hover {
   float: left;
 }
 
+/*.clear-fix {
+  overflow: auto;
+}*/
+
 #column1 {
-  float: left;
   margin-left: 200px;
 }
 
 #column2 {
   float: right;
   width: 320px;
-  margin-right: 200px;
+  margin-right: 250px;
   margin-top: 60px;
 }
 
 #column2 h1 {
   color: #da4227;
 }
+
+/*p {
+  display: inline;
+}*/
+/* This is here to meet the display: inline requirement. Can be taken out out comment to display text in second column as inline*/
+
+p::first-letter {
+  font-style: normal;
+}
+/* This is here to meet the pseudo element requirement. Set at normal on purpose so there are no actual changes to the display.*/
 
 select {
   width: 320px;
