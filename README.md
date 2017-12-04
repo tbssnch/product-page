@@ -24,13 +24,13 @@ View index.html in your browser
 | Term | Description | Implementation |
 | :-------------     | :------------- | :------------- |
 | **float** | The CSS float property specifies how an element should float. | I used the float property in multiple areas for this project to properly position elements. For example, the shopping cart icon in the nav bar is floated right for proper positioning. |
-| **display: block** | The display property specifies the type of box used for an HTML element. 'display: block' displays an element as a block element (like <p>) | I used display: block in my header. |
-| **display: inline** | The display property specifies the type of box used for an HTML element. 'display: inline' is the default value. Displays an element as an inline element (like <span>) | I used this in the product description. |
+| **display: block** | The display property specifies the type of box used for an HTML element. 'display: block' displays an element as a block element (like p) | I used display: block in my header. |
+| **display: inline** | The display property specifies the type of box used for an HTML element. 'display: inline' is the default value. Displays an element as an inline element (like span) | I used this in the product description. |
 | **pseudo-element** | A CSS pseudo-element is used to style specified parts of an element. | I used this to target the first letter of each paragraph in the second column. |
 | **pseudo-class** | A pseudo-class is used to define a special state of an element. | I used this to apply styles for when links are hovered over. |
 | **clear-fix** | A clearfix is a way for an element to automatically clear its child elements, so that you don't need to add additional markup. | I used this in the header element. |
 | **positional-selector** | The :nth-child() CSS pseudo-class matches one or more elements based on their position among a group of siblings. | I used this in the navigation bar to target a specific link. |
-| **selector combinator** | A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator. | I used this in multiple areas in this project. FOr example, changing the color of the <h1> in my second column. | 
+| **selector combinator** | A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator. | I used this in multiple areas in this project. FOr example, changing the color of the h1 in my second column. |
 
 
 
