@@ -36,7 +36,7 @@ View index.html in your browser
 
 ## Bugs
 
-*
+This page is not responsive. View at full width in browser. 
 
 ## Support
 
